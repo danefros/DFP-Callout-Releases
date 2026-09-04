@@ -3,6 +3,49 @@
     <channel>
         <title>DFP Callout</title>
         <item>
+            <title>0.7.3</title>
+            <pubDate>Fri, 04 Sep 2026 13:12:54 -0700</pubDate>
+            <link>https://github.com/danefros/DFP-Callout-Releases</link>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
+.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
+.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
+.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
+  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
+.callout-whatsnew p { margin: 0 0 10px; }
+.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
+.callout-whatsnew li { margin: 0 0 7px; }
+.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
+  padding: 7px 10px; margin: 0 0 12px; }
+.callout-whatsnew .note b { color: #c13a24; }
+@media (prefers-color-scheme: dark) {
+  .callout-whatsnew { color: #e8e8e8; }
+  .callout-whatsnew h1 { color: #ff7a63; }
+  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
+  .callout-whatsnew .version { color: #9a9a9a; }
+  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
+  .callout-whatsnew .note b { color: #ff7a63; }
+}
+</style>
+<div class="callout-whatsnew">
+<h1>What's new in Callout 0.7.3</h1>
+<p class="version">Version 0.7.3 Alpha</p>
+<p>0.7.3 is a small release with one job: put the crosshair back. In 0.7.2 the capture overlay learned to stay out of the way of whatever app you were using — which is what lets you capture an open menu — and the crosshair cursor was a casualty of that change. It is back, and it stays for the whole gesture.</p>
+<p>It is also the first release that arrives on its own. If you are reading this in the update window, the mechanism 0.7.2 promised has just worked: no email, no download, no dragging. Install and Relaunch, and you are done.</p>
+<h2>Fixed</h2>
+<ul>
+<li><b>The crosshair is back during capture.</b> 0.7.2 changed the capture overlay so that the app you were working in stays in front (that is what lets a menu stay open while you capture it), and macOS only honours an app’s cursor while that app is in front — so the crosshair fell back to a plain arrow. The overlay now asks for its cursor in the way macOS provides for exactly this case, and re-asserts it as the mouse moves. Nothing else about capture changed.</li>
+</ul>
+</div>
+]]></description>
+            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.3-b37/DFP-Callout-0.7.3-b37.zip" length="10242393" type="application/octet-stream" sparkle:edSignature="DFdPDakoGMOcR8eWKhcm3sHavLP/knO2R83O/iobIs4mi22EXteYyi92WJR62o6UK7txg06/2eNo/0O1crYZCg=="/>
+        </item>
+        <item>
             <title>0.7.2</title>
             <pubDate>Fri, 04 Sep 2026 10:09:32 -0700</pubDate>
             <link>https://github.com/danefros/DFP-Callout-Releases</link>
@@ -85,9 +128,8 @@
 </ul>
 </div>
 ]]></description>
-            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.2-b36/DFP-Callout-0.7.2-b36.zip" length="10240439" type="application/octet-stream" sparkle:edSignature="tQX0PCtvE1IaHN0epRPxj9hHfVi0MmmzQgEU2iUPRO+2RDy5gbEeQwib+7CDptIH2CP0xDwDW/+n2f1/azK6Bg=="/>
-            <sparkle:deltas>
-            </sparkle:deltas>
+            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.3-b37/DFP-Callout-0.7.2-b36.zip" length="10240439" type="application/octet-stream" sparkle:edSignature="tQX0PCtvE1IaHN0epRPxj9hHfVi0MmmzQgEU2iUPRO+2RDy5gbEeQwib+7CDptIH2CP0xDwDW/+n2f1/azK6Bg=="/>
+            <sparkle:deltas/>
         </item>
         <item>
             <title>0.7.2</title>
@@ -171,7 +213,7 @@
 </ul>
 </div>
 ]]></description>
-            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.2-b36/DFP-Callout-0.7.2-b35.zip" length="10236825" type="application/octet-stream" sparkle:edSignature="kplQ2P7BAd1/iL52ztcfsD3fdFgUJBmvndIrBt6kNcpscxfOXIGD7JzUcdEVmMSUVtXaKXfVyIn1lugJ3OESDw=="/>
+            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.3-b37/DFP-Callout-0.7.2-b35.zip" length="10236825" type="application/octet-stream" sparkle:edSignature="kplQ2P7BAd1/iL52ztcfsD3fdFgUJBmvndIrBt6kNcpscxfOXIGD7JzUcdEVmMSUVtXaKXfVyIn1lugJ3OESDw=="/>
         </item>
     </channel>
 </rss>
