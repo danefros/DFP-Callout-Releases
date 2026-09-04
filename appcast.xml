@@ -87,7 +87,6 @@
 ]]></description>
             <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.2-b36/DFP-Callout-0.7.2-b36.zip" length="10240439" type="application/octet-stream" sparkle:edSignature="tQX0PCtvE1IaHN0epRPxj9hHfVi0MmmzQgEU2iUPRO+2RDy5gbEeQwib+7CDptIH2CP0xDwDW/+n2f1/azK6Bg=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.2-b36/DFP%20Callout36-35.delta" sparkle:deltaFrom="35" length="255466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UtL3YE53zr3hmqdAXh9u7kBfNj3fCyI7vfvU9OY7tqYrm+dqTrp+BP1uQXYSG48Owe7l98ejskcwbSVoNbqaCA=="/>
             </sparkle:deltas>
         </item>
         <item>
