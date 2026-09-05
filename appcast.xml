@@ -3,6 +3,49 @@
     <channel>
         <title>DFP Callout</title>
         <item>
+            <title>0.7.5</title>
+            <pubDate>Fri, 04 Sep 2026 19:21:02 -0700</pubDate>
+            <link>https://github.com/danefros/DFP-Callout-Releases</link>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>0.7.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
+.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
+.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
+.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
+  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
+.callout-whatsnew p { margin: 0 0 10px; }
+.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
+.callout-whatsnew li { margin: 0 0 7px; }
+.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
+  padding: 7px 10px; margin: 0 0 12px; }
+.callout-whatsnew .note b { color: #c13a24; }
+@media (prefers-color-scheme: dark) {
+  .callout-whatsnew { color: #e8e8e8; }
+  .callout-whatsnew h1 { color: #ff7a63; }
+  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
+  .callout-whatsnew .version { color: #9a9a9a; }
+  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
+  .callout-whatsnew .note b { color: #ff7a63; }
+}
+</style>
+<div class="callout-whatsnew">
+<h1>What's new in Callout 0.7.5</h1>
+<p class="version">Version 0.7.5 Alpha</p>
+<p>0.7.5 does one thing: the crosshair now appears only while you are selecting a region to capture. After the capture, over the Card, the pointer is the ordinary arrow with the tool’s badge riding on it — not a crosshair. Since August every drawing tool had put its badge on a crosshair, so the moment a Card landed under the pointer the crosshair was back; with the capture crosshair lost and found twice in 0.7.4, that became impossible to unsee. The text tool keeps its I-beam, and hovering anything you drew still shows the hand.</p>
+<p>Nothing else changed. If you are reading this in the update window, that is the point: small fixes arrive as soon as they exist.</p>
+<h2>Fixed</h2>
+<ul>
+<li><b>The crosshair belongs to capture.</b> It is the pointer while you drag out a region, and nowhere else. On the Card the tool badge now rides on the arrow, exactly where it always sat, so where a click lands does not move.</li>
+</ul>
+</div>
+]]></description>
+            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.5-b41/DFP-Callout-0.7.5-b41.zip" length="10261912" type="application/octet-stream" sparkle:edSignature="O8gMhR/5nIPTYLyXn58VNqQUcKmv8ghnPTnpQK15LESK8vObA1P4pQDK7cJ314cy1q0f9H+FqGp7l2VJ5ydGCQ=="/>
+        </item>
+        <item>
             <title>0.7.4</title>
             <pubDate>Fri, 04 Sep 2026 18:14:04 -0700</pubDate>
             <link>https://github.com/danefros/DFP-Callout-Releases</link>
@@ -91,92 +134,6 @@
 </div>
 ]]></description>
             <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.3-b37/DFP-Callout-0.7.3-b37.zip" length="10242393" type="application/octet-stream" sparkle:edSignature="DFdPDakoGMOcR8eWKhcm3sHavLP/knO2R83O/iobIs4mi22EXteYyi92WJR62o6UK7txg06/2eNo/0O1crYZCg=="/>
-        </item>
-        <item>
-            <title>0.7.2</title>
-            <pubDate>Fri, 04 Sep 2026 10:09:32 -0700</pubDate>
-            <link>https://github.com/danefros/DFP-Callout-Releases</link>
-            <sparkle:version>36</sparkle:version>
-            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
-.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
-.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
-.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
-  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
-.callout-whatsnew p { margin: 0 0 10px; }
-.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
-.callout-whatsnew li { margin: 0 0 7px; }
-.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
-  padding: 7px 10px; margin: 0 0 12px; }
-.callout-whatsnew .note b { color: #c13a24; }
-@media (prefers-color-scheme: dark) {
-  .callout-whatsnew { color: #e8e8e8; }
-  .callout-whatsnew h1 { color: #ff7a63; }
-  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
-  .callout-whatsnew .version { color: #9a9a9a; }
-  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
-  .callout-whatsnew .note b { color: #ff7a63; }
-}
-</style>
-<div class="callout-whatsnew">
-<h1>What's new in Callout 0.7.2</h1>
-<p class="version">Version 0.7.2 Alpha</p>
-<p>0.7.2 is about putting two screenshots together. Until now, comparing two things meant arranging two windows on screen and capturing the result — the arranging was the whole chore, and what came out could not be adjusted afterwards. Now you pick the Cards you already have and Callout does it.</p>
-<p>The rest of the release is what using that feature immediately turned up. Combining meant whole Cards started arriving as pieces on a Card, and several things that had been fine for a year stopped being fine the moment they did — most visibly, you could not draw on top of anything you had added, and Crop would quietly ignore the box you had just drawn. Both are fixed, and Crop has been redrawn while it was open.</p>
-<p>If you are on 0.6 or 0.7, this is a straightforward update — nothing about your existing Cards changes. And it is the last update you will have to go and find: from here on, Callout offers the next one itself.</p>
-<h2>Putting screenshots together</h2>
-<ul>
-<li><b>Combine Cards into a new one.</b> Select two or more in the Library, right-click, and choose Combine. You get a NEW Card — the ones you picked are read and never touched, so nothing you already have is at risk. Two or three sit side by side, four make a square, and more become a contact sheet.</li>
-<li><b>Or add them to the Card you are already working on.</b> Right-click → Add to Current Card puts them beside what you have, and the Library closes so you land back on your work. ⌘Z takes them straight back out if it was not what you wanted.</li>
-<li><b>Sizes are sorted out for you.</b> A photo from your phone is many times the size of a cropped screenshot, and dropping one next to the other used to produce a picture with a stripe along one edge. Nothing now arrives bigger than what it is joining, and two shots of nearly the same height line up exactly. Nothing is thrown away — drag a corner and the full resolution is still there.</li>
-<li><b>Everything stays movable.</b> Each piece can be moved and resized after the fact, edges and centres attract as you drag, and you annotate across the whole thing freely — an arrow can point from one screenshot to the other.</li>
-</ul>
-<h2>Working on top of what you added</h2>
-<p class="note"><b>One thing to learn</b> Hold ⌘ to move a picture. A plain click and drag always draws with whatever tool you have, even on top of an added screenshot — which is what you want almost all of the time. It is the same as holding ⌘ for the move tool in Photoshop.</p>
-<ul>
-<li><b>You can draw on top of added screenshots.</b> Previously any click on one picked it up and moved it, so on a combined Card there was nowhere left to draw at all. Now the tool always wins, and ⌘-drag moves a picture. The cursor tells you which you are about to get: the open hand only appears while ⌘ is down.</li>
-<li><b>The box around a selected picture is where the picture actually is.</b> It used to be drawn a few points outside the edge on every side, and the corner handles were grabbed in a slightly different place from where they were drawn.</li>
-</ul>
-<h2>Crop</h2>
-<ul>
-<li><b>Crop respects your crop.</b> If a picture on your Card hung past the edge of the original screenshot, the canvas would grow back out to include it and quietly undo what you had just framed. The rule is simple now: if you have cropped, that is the picture.</li>
-<li><b>Crop looks like a crop.</b> Corner brackets, edge bars and a fine white border, with the composition thirds appearing while you drag and going away when you stop. It used to wear the same blue box and white squares the app uses for a selected object, which was genuinely confusing when both were on screen at once.</li>
-<li><b>Starting a crop clears whatever was selected</b>, because crop applies to the whole Card and nothing else.</li>
-</ul>
-<h2>Your files</h2>
-<ul>
-<li><b>Restoring, duplicating and deleting tell you if something went wrong.</b> A Card is several files. These operations used to move them one at a time and report success whichever ones arrived — so a restored Card could come back missing a piece, or a duplicate could be counted as made with an added picture lost, and neither said a word. They now say what they managed. In normal use you will never see this; that is the point.</li>
-</ul>
-<h2>Callout updates itself</h2>
-<ul>
-<li><b>No more waiting for a disk image to arrive.</b> Callout looks for a newer version when it starts — at most once a day — and shows you what changed before anything happens. Press Install and Relaunch and you are on the new build; Help → Check for Updates… asks whenever you like. It fetches the list of releases and nothing else: nothing about you or your Cards is sent, and Settings → General turns the automatic check off. An update has to be signed by me and notarised by Apple before it will run, and your old copy stays put until the new one has launched.</li>
-</ul>
-<h2>Smaller things</h2>
-<ul>
-<li><b>Bug reports now record your captures.</b> The report’s “Recent events” list — which named three bugs in its first week — never recorded a capture, so a report about a capture that went wrong had nothing to say. Now it records each one: which kind, which branch Repeat Last took, and how it ended. Sizes only, never a screen position, and never a document name.</li>
-<li><b>The Library button says what it will do.</b> Once the Library is open it reads Back to Canvas, rather than describing where you already are.</li>
-<li><b>The crosshair stays for the whole capture.</b> It appeared and vanished on the first mouse move, which looked like it had never been asked for.</li>
-<li><b>A bug report now asks where to save it.</b> Choosing Save to Finder used to reveal the report where it had been built — a temporary folder that macOS empties on its own schedule, so a report you thought you had kept could quietly disappear. It opens a normal save dialog now.</li>
-</ul>
-<h2>Fixed — things that could bite you on 0.6</h2>
-<p>Several of these were reachable before this release, and one of them could lose work. If you are updating from 0.6, these are the reasons to.</p>
-<ul>
-<li><b>You can capture an open menu.</b> Pressing the capture hotkey while another app’s menu was open used to close the menu before the picture was taken, because Callout brought itself forward first. It no longer does: the grab happens with the other app still in front, so the menu is in the shot — exactly as with the built-in macOS screenshot — and the Callout window comes forward only once the Card has landed.</li>
-<li><b>Forget Original could throw away part of a Card.</b> On a Card with a picture added to it, anything sitting outside the original screenshot’s edge was discarded when the original was forgotten — after the untouched capture had already been replaced. Nothing outside the frame is lost now.</li>
-<li><b>A stray click with the crop tool could make a Card disappear.</b> Pressing without dragging set a crop of zero size, and the Card would render as nothing and refuse to export. A click that does not become a drag is no longer a crop.</li>
-<li><b>Blur and pixelate now work on an added picture.</b> They only ever sampled the original screenshot, so a redaction over a picture added beside it drew nothing at all. It was visibly doing nothing rather than pretending to work — but if you tried to redact something on an added picture, check that Card.</li>
-<li><b>A magnifier over an added picture shows it</b> rather than coming up empty. Same cause as the blur.</li>
-<li><b>Text on an added picture wraps properly.</b> It measured its width against the original screenshot, so text starting past that edge wrapped at about two characters a line.</li>
-<li><b>Nothing covers the crop Apply button.</b> Starting a crop while a text box was open left the text options panel sitting on top of Apply and Cancel.</li>
-</ul>
-</div>
-]]></description>
-            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.2-b36/DFP-Callout-0.7.2-b36.zip" length="10240439" type="application/octet-stream" sparkle:edSignature="tQX0PCtvE1IaHN0epRPxj9hHfVi0MmmzQgEU2iUPRO+2RDy5gbEeQwib+7CDptIH2CP0xDwDW/+n2f1/azK6Bg=="/>
-            <sparkle:deltas/>
         </item>
     </channel>
 </rss>
