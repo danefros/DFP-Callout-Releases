@@ -3,6 +3,49 @@
     <channel>
         <title>DFP Callout</title>
         <item>
+            <title>0.7.7</title>
+            <pubDate>Thu, 10 Sep 2026 20:55:10 -0700</pubDate>
+            <link>https://github.com/danefros/DFP-Callout-Releases</link>
+            <sparkle:version>44</sparkle:version>
+            <sparkle:shortVersionString>0.7.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
+.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
+.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
+.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
+  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
+.callout-whatsnew p { margin: 0 0 10px; }
+.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
+.callout-whatsnew li { margin: 0 0 7px; }
+.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
+  padding: 7px 10px; margin: 0 0 12px; }
+.callout-whatsnew .note b { color: #c13a24; }
+@media (prefers-color-scheme: dark) {
+  .callout-whatsnew { color: #e8e8e8; }
+  .callout-whatsnew h1 { color: #ff7a63; }
+  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
+  .callout-whatsnew .version { color: #9a9a9a; }
+  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
+  .callout-whatsnew .note b { color: #ff7a63; }
+}
+</style>
+<div class="callout-whatsnew">
+<h1>What's new in Callout 0.7.7</h1>
+<p class="version">Version 0.7.7 Alpha</p>
+<p>0.7.7 adds one control, asked for by several of you in different words: the size of the image that leaves Callout. Click the pill at the bottom (or right-click it, as before) and under the formats you will find 100%, 75%, 50% and 25%, each showing the pixel size it makes, plus Custom… — a slider whose percentage and pixel size follow your hand — and Reset to 100%. It applies to everything that leaves — the pill drag, ⌘C, Export…, and the Library’s export — and never to the Card itself, which keeps every pixel. On a Retina Mac, 50% is exactly the size the capture had on screen, which is what a chat window expects.</p>
+<p>It stays set until you change it, and you can always see it: at 100% the pill looks as it always has; at anything else it reads the format and the percent, the copy confirmation names the size that left, and the export panel shows it too. Nothing is ever scaled up.</p>
+<h2>New</h2>
+<ul>
+<li><b>Choose the size of what leaves.</b> Click the pill for the format and the scale. Sticky, global, always visible when it is not 100%. Rendered at the chosen size rather than shrunk afterwards, so arrows and text stay crisp and only the picture is resampled.</li>
+</ul>
+</div>
+]]></description>
+            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.7-b44/DFP-Callout-0.7.7-b44.zip" length="10282414" type="application/octet-stream" sparkle:edSignature="x5nimRytR+CNX7tSXGrIH7vwJIymCtDRsx/KVBqoJz4gZdA+67XlAgV+15n+G8IXE5fT5GPw0tQDCwh9iUu8Dw=="/>
+        </item>
+        <item>
             <title>0.7.6</title>
             <pubDate>Fri, 04 Sep 2026 22:44:40 -0700</pubDate>
             <link>https://github.com/danefros/DFP-Callout-Releases</link>
@@ -88,53 +131,6 @@
 </div>
 ]]></description>
             <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.5-b41/DFP-Callout-0.7.5-b41.zip" length="10261912" type="application/octet-stream" sparkle:edSignature="O8gMhR/5nIPTYLyXn58VNqQUcKmv8ghnPTnpQK15LESK8vObA1P4pQDK7cJ314cy1q0f9H+FqGp7l2VJ5ydGCQ=="/>
-        </item>
-        <item>
-            <title>0.7.4</title>
-            <pubDate>Fri, 04 Sep 2026 18:14:04 -0700</pubDate>
-            <link>https://github.com/danefros/DFP-Callout-Releases</link>
-            <sparkle:version>40</sparkle:version>
-            <sparkle:shortVersionString>0.7.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
-.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
-.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
-.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
-  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
-.callout-whatsnew p { margin: 0 0 10px; }
-.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
-.callout-whatsnew li { margin: 0 0 7px; }
-.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
-  padding: 7px 10px; margin: 0 0 12px; }
-.callout-whatsnew .note b { color: #c13a24; }
-@media (prefers-color-scheme: dark) {
-  .callout-whatsnew { color: #e8e8e8; }
-  .callout-whatsnew h1 { color: #ff7a63; }
-  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
-  .callout-whatsnew .version { color: #9a9a9a; }
-  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
-  .callout-whatsnew .note b { color: #ff7a63; }
-}
-</style>
-<div class="callout-whatsnew">
-<h1>What's new in Callout 0.7.4</h1>
-<p class="version">Version 0.7.4 Alpha</p>
-<p>0.7.4 answers the first round of notes on the updater and the crosshair. Callout now checks for updates every time it launches, and every hour while it is running — it was checking once a day, so quitting and relaunching to pick up a new build did nothing if you had checked in the last twenty-four hours, which several of you noticed. And you now decide when it looks: Settings → General has an Updates section with three checkboxes. The crosshair 0.7.3 said it had brought back was only there while the mouse was moving — hold still and it fell back to an arrow. It is now drawn by Callout itself over an invisible system cursor, so it is there whether you move or not. And something only a brand-new tester would ever see: if Callout does not yet have Screen Recording permission and you press the capture hotkey, the alert explaining what to do now comes to the front. Since 0.7.2 it could open behind the app you were using — so it looked as if nothing had happened at all.</p>
-<p>Nothing else changed. If you are reading this in the update window, that is the point: small fixes now arrive as soon as they exist.</p>
-<h2>Fixed</h2>
-<ul>
-<li><b>Quit and relaunch, and Callout checks for an update.</b> It was checking at most once a day, which is the normal habit for a finished app and the wrong one for an alpha that ships several builds a week. It now checks a few seconds after every launch and once an hour while it runs. Nothing about what it sends changed: one request for the release list, carrying the version and nothing else.</li>
-<li><b>You decide when it looks.</b> Settings → General → Updates has three checkboxes — When Callout opens, Every hour while it runs, Once a day. Tick any combination, or none at all; Help → Check for Updates… works whatever you choose. All three start on. If you had switched the old single checkbox off, all three start off.</li>
-<li><b>The crosshair stays put.</b> 0.7.3 restored it, but only while the mouse was moving — macOS lets the app in front reassert its own cursor the moment you hold still, and Callout deliberately stays out of front so your open menus survive. The fix that actually holds was found by photographing the pointer rather than reasoning about it: the system cursor is made invisible over the capture overlay and Callout draws the crosshair itself, exactly at the pointer. If you ever see an arrow as well, tell me — that would be new.</li>
-<li><b>Holding Space to move the selection is guarded.</b> If something takes the keyboard away from the capture overlay mid-drag, the drag keeps working but Space silently stops — we reproduced that exactly. The overlay now takes the keyboard back the moment it loses it, and writes down who took it. If Space ever fails to move the box for you, use Help → Report a Bug… straight afterwards: the report will name the culprit.</li>
-<li><b>The Screen Recording alert comes to the front.</b> Callout stays out of the way of the app you are capturing — that is what lets an open menu survive the capture — and the one time it must step forward is to tell you it has no permission. It now does.</li>
-</ul>
-</div>
-]]></description>
-            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.4-b40/DFP-Callout-0.7.4-b40.zip" length="10259776" type="application/octet-stream" sparkle:edSignature="HCGHpUv7FI7c2xH7y2L0gS/8nF7I7SSKvi1xxAUoXRrRO9TzmSk0psKVHt8wF45hbeswvadxI5/WaPLcIxykDA=="/>
         </item>
     </channel>
 </rss>
