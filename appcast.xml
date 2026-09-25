@@ -3,6 +3,49 @@
     <channel>
         <title>DFP Callout</title>
         <item>
+            <title>0.8.1</title>
+            <pubDate>Thu, 24 Sep 2026 19:30:44 -0700</pubDate>
+            <link>https://github.com/danefros/DFP-Callout-Releases</link>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
+.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
+.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
+.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
+  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
+.callout-whatsnew p { margin: 0 0 10px; }
+.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
+.callout-whatsnew li { margin: 0 0 7px; }
+.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
+  padding: 7px 10px; margin: 0 0 12px; }
+.callout-whatsnew .note b { color: #c13a24; }
+@media (prefers-color-scheme: dark) {
+  .callout-whatsnew { color: #e8e8e8; }
+  .callout-whatsnew h1 { color: #ff7a63; }
+  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
+  .callout-whatsnew .version { color: #9a9a9a; }
+  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
+  .callout-whatsnew .note b { color: #ff7a63; }
+}
+</style>
+<div class="callout-whatsnew">
+<h1>What's new in Callout 0.8.1</h1>
+<p class="version">Version 0.8.1 Alpha</p>
+<p>0.8.1 adds one thing several of you asked for: rotation. A screenshot that arrived sideways — a phone capture, a scan — turns by 90° left, 90° right or 180° — left and right from the crop tool’s options column, all three from the Edit menu, with Preview’s shortcuts ⌘L and ⌘R. It is an edit like crop: everything you have drawn turns with the picture (text and stamps move but stay upright, because sideways text is never what anyone meant), ⌘Z reverses it, and because a quarter turn moves pixels without changing them, rotating back returns every one of them.</p>
+<p>Nothing else changed. If you are reading this in the update window, that is the point: small things arrive as soon as they exist.</p>
+<h2>New</h2>
+<ul>
+<li><b>Rotate the Card.</b> Left and right in the crop tool’s options; Edit has Rotate Left, Rotate Right and Rotate 180°, with ⌘L and ⌘R. The picture and your markup turn together; text and stamps stay upright; ⌘Z undoes it; rotating back is exact to the pixel.</li>
+</ul>
+</div>
+]]></description>
+            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.8.1-b50/DFP-Callout-0.8.1-b50.zip" length="10377050" type="application/octet-stream" sparkle:edSignature="ws+lIl28l30InmCeNjIsuqg9kbK/SmBQEQobcY1kTXXnwh2mXtrzaSyi+J2e6LAg+z8SJ8rt9Lil8vwBaXXjBA=="/>
+        </item>
+        <item>
             <title>0.8.0</title>
             <pubDate>Tue, 15 Sep 2026 10:40:49 -0700</pubDate>
             <link>https://github.com/danefros/DFP-Callout-Releases</link>
@@ -89,49 +132,6 @@
 </div>
 ]]></description>
             <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.8-b46/DFP-Callout-0.7.8-b46.zip" length="10354936" type="application/octet-stream" sparkle:edSignature="NB9VR4pG7+jznR9APbaFYbGMYAvcordAihmLAA0byt0vT/QEBsM2Q4JTIuizY1rWhJQIut1TFXWUaMuCz9qKCg=="/>
-        </item>
-        <item>
-            <title>0.7.7</title>
-            <pubDate>Thu, 10 Sep 2026 20:55:10 -0700</pubDate>
-            <link>https://github.com/danefros/DFP-Callout-Releases</link>
-            <sparkle:version>44</sparkle:version>
-            <sparkle:shortVersionString>0.7.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
-.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
-.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
-.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
-  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
-.callout-whatsnew p { margin: 0 0 10px; }
-.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
-.callout-whatsnew li { margin: 0 0 7px; }
-.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
-  padding: 7px 10px; margin: 0 0 12px; }
-.callout-whatsnew .note b { color: #c13a24; }
-@media (prefers-color-scheme: dark) {
-  .callout-whatsnew { color: #e8e8e8; }
-  .callout-whatsnew h1 { color: #ff7a63; }
-  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
-  .callout-whatsnew .version { color: #9a9a9a; }
-  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
-  .callout-whatsnew .note b { color: #ff7a63; }
-}
-</style>
-<div class="callout-whatsnew">
-<h1>What's new in Callout 0.7.7</h1>
-<p class="version">Version 0.7.7 Alpha</p>
-<p>0.7.7 adds one control, asked for by several of you in different words: the size of the image that leaves Callout. Click the pill at the bottom (or right-click it, as before) and under the formats you will find 100%, 75%, 50% and 25%, each showing the pixel size it makes, plus Custom… — a slider whose percentage and pixel size follow your hand — and Reset to 100%. It applies to everything that leaves — the pill drag, ⌘C, Export…, and the Library’s export — and never to the Card itself, which keeps every pixel. On a Retina Mac, 50% is exactly the size the capture had on screen, which is what a chat window expects.</p>
-<p>It stays set until you change it, and you can always see it: at 100% the pill looks as it always has; at anything else it reads the format and the percent, the copy confirmation names the size that left, and the export panel shows it too. Nothing is ever scaled up.</p>
-<h2>New</h2>
-<ul>
-<li><b>Choose the size of what leaves.</b> Click the pill for the format and the scale. Sticky, global, always visible when it is not 100%. Rendered at the chosen size rather than shrunk afterwards, so arrows and text stay crisp and only the picture is resampled.</li>
-</ul>
-</div>
-]]></description>
-            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.7-b44/DFP-Callout-0.7.7-b44.zip" length="10282414" type="application/octet-stream" sparkle:edSignature="x5nimRytR+CNX7tSXGrIH7vwJIymCtDRsx/KVBqoJz4gZdA+67XlAgV+15n+G8IXE5fT5GPw0tQDCwh9iUu8Dw=="/>
         </item>
     </channel>
 </rss>
