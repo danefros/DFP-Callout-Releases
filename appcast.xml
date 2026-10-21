@@ -3,6 +3,50 @@
     <channel>
         <title>DFP Callout</title>
         <item>
+            <title>0.8.2</title>
+            <pubDate>Tue, 20 Oct 2026 18:05:51 -0700</pubDate>
+            <link>https://github.com/danefros/DFP-Callout-Releases</link>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
+.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
+.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
+.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
+  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
+.callout-whatsnew p { margin: 0 0 10px; }
+.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
+.callout-whatsnew li { margin: 0 0 7px; }
+.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
+  padding: 7px 10px; margin: 0 0 12px; }
+.callout-whatsnew .note b { color: #c13a24; }
+@media (prefers-color-scheme: dark) {
+  .callout-whatsnew { color: #e8e8e8; }
+  .callout-whatsnew h1 { color: #ff7a63; }
+  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
+  .callout-whatsnew .version { color: #9a9a9a; }
+  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
+  .callout-whatsnew .note b { color: #ff7a63; }
+}
+</style>
+<div class="callout-whatsnew">
+<h1>What's new in Callout 0.8.2</h1>
+<p class="version">Version 0.8.2 Alpha</p>
+<p>0.8.2 closes the biggest gap anyone has found: Callout now captures across all of your displays, the way the Mac’s own screenshot tool does. Press the hotkey and the overlay covers every screen; move the pointer between them and the crosshair follows; drag on whichever one you like. Window mode highlights windows on any display. Fullscreen captures the display you click, and a new Capture All Displays (in the ▾ menu beside New Capture, or ⌥-click in fullscreen mode) takes every display at once, one Card each — exactly what ⌘⇧3 gives you. A region never spans two displays, for the same reason Apple’s does not: screens of different sizes and scales do not make one honest picture.</p>
+<p>With one display nothing looks different. Repeat Last remembers which display its region was on. One small thing besides: right-click a Card in the Library and Show in Finder selects its image in a Finder window — the top-level picture, the one you would attach or send.</p>
+<h2>New</h2>
+<ul>
+<li><b>Show in Finder, for one Card.</b> Right-click a Card (or several) in the Library and Show in Finder opens a Finder window with the image selected.</li>
+<li><b>Capture across every display.</b> The overlay covers all of them; the pointer moves between them freely; a drag belongs to the display it starts on. Fullscreen captures the display you click; Capture All Displays makes one Card per display.</li>
+</ul>
+</div>
+]]></description>
+            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.8.2-b51/DFP-Callout-0.8.2-b51.zip" length="10404293" type="application/octet-stream" sparkle:edSignature="YsqQszagVtjtkDdEX2kDl2/pPWI1P08lGi+t3k/KozuJU0Jzn+ZYxBAScBLWO4G1m6YJmJv0U+t4TB3CPmWPDg=="/>
+        </item>
+        <item>
             <title>0.8.1</title>
             <pubDate>Thu, 24 Sep 2026 19:30:44 -0700</pubDate>
             <link>https://github.com/danefros/DFP-Callout-Releases</link>
@@ -88,50 +132,6 @@
 </div>
 ]]></description>
             <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.8.0-b48/DFP-Callout-0.8.0-b48.zip" length="10363828" type="application/octet-stream" sparkle:edSignature="qPC5HCQm4XlrZnZPYLZvH1+V9KlAlrHwjlb7HpRi3HO/EuZa3kTFVri4tqGmJReGnQhXA3Un9nvAVX78GknpBQ=="/>
-        </item>
-        <item>
-            <title>0.7.8</title>
-            <pubDate>Sun, 13 Sep 2026 20:47:25 -0700</pubDate>
-            <link>https://github.com/danefros/DFP-Callout-Releases</link>
-            <sparkle:version>46</sparkle:version>
-            <sparkle:shortVersionString>0.7.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
-.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
-.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
-.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
-  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
-.callout-whatsnew p { margin: 0 0 10px; }
-.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
-.callout-whatsnew li { margin: 0 0 7px; }
-.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
-  padding: 7px 10px; margin: 0 0 12px; }
-.callout-whatsnew .note b { color: #c13a24; }
-@media (prefers-color-scheme: dark) {
-  .callout-whatsnew { color: #e8e8e8; }
-  .callout-whatsnew h1 { color: #ff7a63; }
-  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
-  .callout-whatsnew .version { color: #9a9a9a; }
-  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
-  .callout-whatsnew .note b { color: #ff7a63; }
-}
-</style>
-<div class="callout-whatsnew">
-<h1>What's new in Callout 0.7.8</h1>
-<p class="version">Version 0.7.8 Alpha</p>
-<p>0.7.8 changes one default, and it is the first thing to know: Callout now leaves the Dock when it has no window open. Close the window and the icon goes — it is still running, still in the menu bar, still on its hotkeys, and it comes straight back, Dock icon and all, the moment a Card lands or you open it from the menu bar. That is how Skitch and Shottr behave, and what several of you expected. If you would rather it always sat in the Dock, Settings → General → Show in the Dock has “Always”.</p>
-<p>While Callout is out of the Dock it is also out of ⌘-Tab: the menu-bar icon and the hotkeys are the way back, which is how it was always meant to be used in the background. Starting at login in the menu bar now shows no icon at all until you need one. And updates now wait for you in the menu bar. Several of you said the hourly check was not working; it was, but the update window only ever appeared when you next came back to Callout, and if you worked all day by hotkey that could be never. Now a build found by the hourly check puts a small dot on the menu-bar icon and an “Update to…” item at the top of its menu; pick it and the update window comes to the front. It also appears by itself the next time Callout comes forward. Nothing interrupts you mid-sentence.</p>
-<h2>New</h2>
-<ul>
-<li><b>Out of the Dock when there is nothing to show.</b> The Dock icon comes and goes with the window. Settings → General → Show in the Dock: Only while a window is open (the new default), or Always.</li>
-<li><b>Updates wait in the menu bar.</b> A build found by the hourly check is a dot on the menu-bar icon and an “Update to…” item at the top of its menu, and a badge on the Dock icon while there is one. It shows itself the next time Callout comes forward; it never interrupts what you are doing. The check when Callout launches is unchanged.</li>
-</ul>
-</div>
-]]></description>
-            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.7.8-b46/DFP-Callout-0.7.8-b46.zip" length="10354936" type="application/octet-stream" sparkle:edSignature="NB9VR4pG7+jznR9APbaFYbGMYAvcordAihmLAA0byt0vT/QEBsM2Q4JTIuizY1rWhJQIut1TFXWUaMuCz9qKCg=="/>
         </item>
     </channel>
 </rss>
