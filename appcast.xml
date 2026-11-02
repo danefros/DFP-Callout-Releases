@@ -3,6 +3,53 @@
     <channel>
         <title>DFP Callout</title>
         <item>
+            <title>0.8.4</title>
+            <pubDate>Sun, 01 Nov 2026 21:07:08 -0800</pubDate>
+            <link>https://github.com/danefros/DFP-Callout-Releases</link>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>0.8.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
+.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
+.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
+.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
+  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
+.callout-whatsnew p { margin: 0 0 10px; }
+.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
+.callout-whatsnew li { margin: 0 0 7px; }
+.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
+  padding: 7px 10px; margin: 0 0 12px; }
+.callout-whatsnew .note b { color: #c13a24; }
+@media (prefers-color-scheme: dark) {
+  .callout-whatsnew { color: #e8e8e8; }
+  .callout-whatsnew h1 { color: #ff7a63; }
+  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
+  .callout-whatsnew .version { color: #9a9a9a; }
+  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
+  .callout-whatsnew .note b { color: #ff7a63; }
+}
+</style>
+<div class="callout-whatsnew">
+<h1>What's new in Callout 0.8.4</h1>
+<p class="version">Version 0.8.4 Alpha</p>
+<p>0.8.4 fixes one thing that two bug reports described from different sides: copying markup. Until now ⌘C always copied the finished image and ⌘V always made a new Card from whatever image was on the clipboard — there was no way to copy an arrow or a text at all. Select a text, press ⌘C then ⌘V, and you got a second Card that looked exactly like the first, with every arrow and text baked into its pixels, and nothing said so. From then on the “arrows” could not be selected, because they were no longer arrows, and clicking a baked-in text with the Text tool made a new one on top of it.</p>
+<p>Now ⌘C with something selected copies that markup, ⌘V puts the copy back on the Card beside the original — or onto any other Card — and ⌘X cuts. ⌘C still carries the finished image for Slack, Mail and everything else, so the capture–mark–copy–paste loop is exactly what it was. With nothing selected, ⌘C copies the finished image as before, and pasting a plain image still makes a new Card — it just says so now.</p>
+<h2>Copy and paste</h2>
+<ul>
+<li><b>Copy and paste markup.</b> Select an arrow, a text, a shape — or several — and ⌘C copies them; ⌘V pastes the copy nudged beside the original, or at the same place on another Card; paste again and it steps along. ⌘X cuts. Undo takes back a paste or a cut in one step.</li>
+<li><b>The finished image still rides along.</b> ⌘C with a selection puts both on the clipboard: Callout reads its own markup, every other app receives the image, so pasting into Slack works whether or not something was selected.</li>
+<li><b>Pasting an image says what it did.</b> An image on the clipboard still becomes a new Card; the status bar now says “Pasted as a new Card”, so a duplicate can never again look like nothing happened.</li>
+<li><b>Cut, Copy and Paste in the Edit menu know when they apply.</b> Cut needs a selection; Paste needs something pasteable.</li>
+<li><b>Also asked for, and not in this release:</b> a way to select without a tool, or Tab through the objects on a Card. Logged for discussion.</li>
+</ul>
+</div>
+]]></description>
+            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.8.4-b53/DFP-Callout-0.8.4-b53.zip" length="10458133" type="application/octet-stream" sparkle:edSignature="fRLrhlyyxzDEV8rJb+pIM8ANpM3zw4Hj04qQztNJN84uY49xfasL6VyGDGtSGXpoxW4NzDT/dHZS6tMGvAbWCQ=="/>
+        </item>
+        <item>
             <title>0.8.3</title>
             <pubDate>Wed, 21 Oct 2026 16:10:36 -0700</pubDate>
             <link>https://github.com/danefros/DFP-Callout-Releases</link>
@@ -90,49 +137,6 @@
 </div>
 ]]></description>
             <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.8.2-b51/DFP-Callout-0.8.2-b51.zip" length="10404293" type="application/octet-stream" sparkle:edSignature="YsqQszagVtjtkDdEX2kDl2/pPWI1P08lGi+t3k/KozuJU0Jzn+ZYxBAScBLWO4G1m6YJmJv0U+t4TB3CPmWPDg=="/>
-        </item>
-        <item>
-            <title>0.8.1</title>
-            <pubDate>Thu, 24 Sep 2026 19:30:44 -0700</pubDate>
-            <link>https://github.com/danefros/DFP-Callout-Releases</link>
-            <sparkle:version>50</sparkle:version>
-            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
-.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
-.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
-.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
-  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
-.callout-whatsnew p { margin: 0 0 10px; }
-.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
-.callout-whatsnew li { margin: 0 0 7px; }
-.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
-  padding: 7px 10px; margin: 0 0 12px; }
-.callout-whatsnew .note b { color: #c13a24; }
-@media (prefers-color-scheme: dark) {
-  .callout-whatsnew { color: #e8e8e8; }
-  .callout-whatsnew h1 { color: #ff7a63; }
-  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
-  .callout-whatsnew .version { color: #9a9a9a; }
-  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
-  .callout-whatsnew .note b { color: #ff7a63; }
-}
-</style>
-<div class="callout-whatsnew">
-<h1>What's new in Callout 0.8.1</h1>
-<p class="version">Version 0.8.1 Alpha</p>
-<p>0.8.1 adds one thing several of you asked for: rotation. A screenshot that arrived sideways — a phone capture, a scan — turns by 90° left, 90° right or 180° — left and right from the crop tool’s options column, all three from the Edit menu, with Preview’s shortcuts ⌘L and ⌘R. It is an edit like crop: everything you have drawn turns with the picture (text and stamps move but stay upright, because sideways text is never what anyone meant), ⌘Z reverses it, and because a quarter turn moves pixels without changing them, rotating back returns every one of them.</p>
-<p>Nothing else changed. If you are reading this in the update window, that is the point: small things arrive as soon as they exist.</p>
-<h2>New</h2>
-<ul>
-<li><b>Rotate the Card.</b> Left and right in the crop tool’s options; Edit has Rotate Left, Rotate Right and Rotate 180°, with ⌘L and ⌘R. The picture and your markup turn together; text and stamps stay upright; ⌘Z undoes it; rotating back is exact to the pixel.</li>
-</ul>
-</div>
-]]></description>
-            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.8.1-b50/DFP-Callout-0.8.1-b50.zip" length="10377050" type="application/octet-stream" sparkle:edSignature="ws+lIl28l30InmCeNjIsuqg9kbK/SmBQEQobcY1kTXXnwh2mXtrzaSyi+J2e6LAg+z8SJ8rt9Lil8vwBaXXjBA=="/>
         </item>
     </channel>
 </rss>
