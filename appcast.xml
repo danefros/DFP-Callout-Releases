@@ -3,6 +3,61 @@
     <channel>
         <title>DFP Callout</title>
         <item>
+            <title>0.8.5</title>
+            <pubDate>Thu, 05 Nov 2026 18:22:48 -0600</pubDate>
+            <link>https://github.com/danefros/DFP-Callout-Releases</link>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>0.8.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
+.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
+.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
+.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
+  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
+.callout-whatsnew p { margin: 0 0 10px; }
+.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
+.callout-whatsnew li { margin: 0 0 7px; }
+.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
+  padding: 7px 10px; margin: 0 0 12px; }
+.callout-whatsnew .note b { color: #c13a24; }
+@media (prefers-color-scheme: dark) {
+  .callout-whatsnew { color: #e8e8e8; }
+  .callout-whatsnew h1 { color: #ff7a63; }
+  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
+  .callout-whatsnew .version { color: #9a9a9a; }
+  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
+  .callout-whatsnew .note b { color: #ff7a63; }
+}
+</style>
+<div class="callout-whatsnew">
+<h1>What's new in Callout 0.8.5</h1>
+<p class="version">Version 0.8.5 Alpha</p>
+<p>0.8.5 fixes something that has been in every Callout since the first text was typed and only showed once the type got big: the white halo around text had sharp, mitred corners, and at every pointed vertex — the top of an M, the apex of an A, the points of a W — the mitre ran on into a spike. At 24 pixels the spike is a pixel and nobody sees it. On a large picture, with the captions scaled up to match, the spikes become horns. The halo now has round corners. Nothing moves; every Card, old and new, simply loses the horns.</p>
+<p>The same report asked about spacing. Half the halo sits outside each letter, so each gap between two letters loses a halo’s width, and on heavy capitals that is most of the gap. Text made from 0.8.5 on gets that width back, so the gaps read as the typeface designed them. Text on existing Cards keeps its layout exactly — a Card you made yesterday does not re-flow — and the Stroke slider still governs both the halo and the room it takes.</p>
+<h2>Fixed</h2>
+<ul>
+<li><b>No more horns on the halo.</b> The outline around text is stroked with round corners, so pointed letters no longer grow spikes at large sizes. Every Card, with nothing else changed.</li>
+<li><b>New text gets the room its halo takes.</b> Letter spacing on text made from now on widens by the halo’s width, following the Stroke slider; turn the halo off and the spacing returns to the face’s own. Older text keeps its layout.</li>
+</ul>
+<h2>Also fixed</h2>
+<p>Small things found while building the two fixes above, folded in because the release was open anyway.</p>
+<ul>
+<li><b>Overlapping spotlights dim once.</b> Where two spotlight regions overlapped, the overlap was dimmed twice; it is now as bright as the rest of the lit area, and Lift applies once too.</li>
+<li><b>New callouts on an older Card come out Beside.</b> A Card saved without any callouts reopened with the old Legend style waiting for it, so callouts drawn on it later collected in a legend instead of sitting beside their markers. Cards that already carry Legend callouts keep them.</li>
+<li><b>Dragging a group moves a magnifier’s source too.</b> A detached magnifier dragged as part of a group left the spot it magnifies behind; it now travels with the lens, as it does when dragged alone.</li>
+<li><b>Standard arrows select by their own shape.</b> The hit test for a standard-headed arrow was using the tapered arrow’s shape.</li>
+<li><b>The text cursor stays on the letters when you are zoomed out.</b> The editor now lays out text at the same size as the canvas and scales the view, so the caret cannot drift from the letters at small zoom levels, and the selection highlight covers exactly the letters it selects; its frame no longer narrows for an instant between keystrokes. One side effect: the caret itself is drawn thinner when you are zoomed well out.</li>
+<li><b>Colours are exact from the first stroke.</b> A freshly drawn annotation and the same annotation reopened from disk differed by a hair in colour; they are identical now. Existing Cards are unchanged.</li>
+<li><b>Clear All Annotations keeps pictures, on purpose.</b> A picture you added to a Card is content, not markup, so the command leaves it where it is. Unchanged, now written down.</li>
+</ul>
+</div>
+]]></description>
+            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.8.5-b55/DFP-Callout-0.8.5-b55.zip" length="10466762" type="application/octet-stream" sparkle:edSignature="9Tn+vgDh3Vm6j1N5qh1JPg1/vjwB/J9wqJOoMn8G1QGJGQpz06e2EzIG5XDQUTjXOm9c4c0KQKfkXzVcMOFbCw=="/>
+        </item>
+        <item>
             <title>0.8.4</title>
             <pubDate>Sun, 01 Nov 2026 21:07:08 -0800</pubDate>
             <link>https://github.com/danefros/DFP-Callout-Releases</link>
@@ -93,50 +148,6 @@
 </div>
 ]]></description>
             <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.8.3-b52/DFP-Callout-0.8.3-b52.zip" length="10424087" type="application/octet-stream" sparkle:edSignature="LEAjKJ5daDhtsBWsFrZufDE2y6WvRVQDZ9JCHVBm187jfjg7OtZPmuR3elad1A/3PUokfW3TOadD7qEcW1L4Dg=="/>
-        </item>
-        <item>
-            <title>0.8.2</title>
-            <pubDate>Tue, 20 Oct 2026 18:05:51 -0700</pubDate>
-            <link>https://github.com/danefros/DFP-Callout-Releases</link>
-            <sparkle:version>51</sparkle:version>
-            <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
-.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
-.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
-.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
-  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
-.callout-whatsnew p { margin: 0 0 10px; }
-.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
-.callout-whatsnew li { margin: 0 0 7px; }
-.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
-  padding: 7px 10px; margin: 0 0 12px; }
-.callout-whatsnew .note b { color: #c13a24; }
-@media (prefers-color-scheme: dark) {
-  .callout-whatsnew { color: #e8e8e8; }
-  .callout-whatsnew h1 { color: #ff7a63; }
-  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
-  .callout-whatsnew .version { color: #9a9a9a; }
-  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
-  .callout-whatsnew .note b { color: #ff7a63; }
-}
-</style>
-<div class="callout-whatsnew">
-<h1>What's new in Callout 0.8.2</h1>
-<p class="version">Version 0.8.2 Alpha</p>
-<p>0.8.2 closes the biggest gap anyone has found: Callout now captures across all of your displays, the way the Mac’s own screenshot tool does. Press the hotkey and the overlay covers every screen; move the pointer between them and the crosshair follows; drag on whichever one you like. Window mode highlights windows on any display. Fullscreen captures the display you click, and a new Capture All Displays (in the ▾ menu beside New Capture, or ⌥-click in fullscreen mode) takes every display at once, one Card each — exactly what ⌘⇧3 gives you. A region never spans two displays, for the same reason Apple’s does not: screens of different sizes and scales do not make one honest picture.</p>
-<p>With one display nothing looks different. Repeat Last remembers which display its region was on. One small thing besides: right-click a Card in the Library and Show in Finder selects its image in a Finder window — the top-level picture, the one you would attach or send.</p>
-<h2>New</h2>
-<ul>
-<li><b>Show in Finder, for one Card.</b> Right-click a Card (or several) in the Library and Show in Finder opens a Finder window with the image selected.</li>
-<li><b>Capture across every display.</b> The overlay covers all of them; the pointer moves between them freely; a drag belongs to the display it starts on. Fullscreen captures the display you click; Capture All Displays makes one Card per display.</li>
-</ul>
-</div>
-]]></description>
-            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.8.2-b51/DFP-Callout-0.8.2-b51.zip" length="10404293" type="application/octet-stream" sparkle:edSignature="YsqQszagVtjtkDdEX2kDl2/pPWI1P08lGi+t3k/KozuJU0Jzn+ZYxBAScBLWO4G1m6YJmJv0U+t4TB3CPmWPDg=="/>
         </item>
     </channel>
 </rss>
