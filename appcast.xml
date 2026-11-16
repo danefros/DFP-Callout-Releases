@@ -3,6 +3,57 @@
     <channel>
         <title>DFP Callout</title>
         <item>
+            <title>0.8.6</title>
+            <pubDate>Mon, 16 Nov 2026 17:55:58 -0600</pubDate>
+            <link>https://github.com/danefros/DFP-Callout-Releases</link>
+            <sparkle:version>56</sparkle:version>
+            <sparkle:shortVersionString>0.8.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
+.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
+.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
+.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
+  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
+.callout-whatsnew p { margin: 0 0 10px; }
+.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
+.callout-whatsnew li { margin: 0 0 7px; }
+.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
+  padding: 7px 10px; margin: 0 0 12px; }
+.callout-whatsnew .note b { color: #c13a24; }
+@media (prefers-color-scheme: dark) {
+  .callout-whatsnew { color: #e8e8e8; }
+  .callout-whatsnew h1 { color: #ff7a63; }
+  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
+  .callout-whatsnew .version { color: #9a9a9a; }
+  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
+  .callout-whatsnew .note b { color: #ff7a63; }
+}
+</style>
+<div class="callout-whatsnew">
+<h1>What's new in Callout 0.8.6</h1>
+<p class="version">Version 0.8.6 Alpha</p>
+<p>0.8.6 changes something that has been true of every Callout: an arrow was the same number of points wide whatever it was drawn on. On a screenshot that is right. On anything bigger — a phone photo, a scan, a full capture of a large display — the picture is shown smaller to fit the window and the markup shrank with it. On a 4284 × 5712 photo the widest arrow came out about two points wide on screen, and ordinary text under four points tall.</p>
+<p>New markup is now sized for the picture it lands on. On anything up to the size of a laptop’s full screen, nothing changes at all. On a bigger picture every tool’s size, and its default, grows in proportion, so an arrow looks like an arrow. Markup you have already made keeps the size it has.</p>
+<p>Also: captures now time themselves. Some take longer than they should to appear, and until now nothing could say which, or why. The numbers are kept quietly and appear only in a bug report.</p>
+<h2>Changed</h2>
+<ul>
+<li><b>New markup is sized for the picture.</b> On a picture whose longer side is over 1,728 points — bigger than a 16-inch MacBook Pro’s screen — arrows, lines, shapes, marker and highlighter, text, callouts and their labels, stamps and the magnifier all come in larger, in proportion to the picture. The sliders read as they always have; they simply mean more on a bigger picture.</li>
+<li><b>Nothing you have made moves.</b> Existing markup keeps its size on every Card. On a big picture you marked up before, select a mark and its slider now reaches the new range.</li>
+<li><b>It follows what is on screen.</b> Crop a large photo down to a detail, or add a second picture beside the first, and markup made afterwards is sized for the picture as it now stands. Rotating changes nothing.</li>
+<li><b>Full captures of a large display are included.</b> A full capture of an external display is bigger than a laptop’s screen, so markup on it now comes in about half again as large as before. If that turns out to be wrong for how you work, say so.</li>
+</ul>
+<h2>Under the hood</h2>
+<ul>
+<li><b>Captures time themselves.</b> Each capture notes how long the overlay took to appear and what it was waiting for. The last fifty are kept and appear in Report a Bug…, where you see them before anything is sent. They hold numbers and a few fixed words — no window titles, no app names.</li>
+</ul>
+</div>
+]]></description>
+            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.8.6-b56/DFP-Callout-0.8.6-b56.zip" length="10497747" type="application/octet-stream" sparkle:edSignature="OIfo7aZOGnfHqihDLctePXf3RPzt4rWOlR/Zg1AYfeZiQyzwBOHBQwpCP1p+OQrXEBGPJr1sH29Z6xK/XBtQAQ=="/>
+        </item>
+        <item>
             <title>0.8.5</title>
             <pubDate>Thu, 05 Nov 2026 18:22:48 -0600</pubDate>
             <link>https://github.com/danefros/DFP-Callout-Releases</link>
@@ -103,51 +154,6 @@
 </div>
 ]]></description>
             <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.8.4-b53/DFP-Callout-0.8.4-b53.zip" length="10458133" type="application/octet-stream" sparkle:edSignature="fRLrhlyyxzDEV8rJb+pIM8ANpM3zw4Hj04qQztNJN84uY49xfasL6VyGDGtSGXpoxW4NzDT/dHZS6tMGvAbWCQ=="/>
-        </item>
-        <item>
-            <title>0.8.3</title>
-            <pubDate>Wed, 21 Oct 2026 16:10:36 -0700</pubDate>
-            <link>https://github.com/danefros/DFP-Callout-Releases</link>
-            <sparkle:version>52</sparkle:version>
-            <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<style>
-.callout-whatsnew { font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-  color: #1a1a1a; margin: 0; padding: 4px 2px 12px; }
-.callout-whatsnew h1 { font-size: 15px; margin: 0 0 2px; color: #c13a24; }
-.callout-whatsnew .version { font-size: 11px; color: #6b6b6b; margin: 0 0 14px; }
-.callout-whatsnew h2 { font-size: 13px; margin: 18px 0 6px; color: #1a1a1a;
-  border-bottom: 1px solid #dcdcdc; padding-bottom: 3px; }
-.callout-whatsnew p { margin: 0 0 10px; }
-.callout-whatsnew ul { margin: 0 0 10px; padding-left: 20px; }
-.callout-whatsnew li { margin: 0 0 7px; }
-.callout-whatsnew .note { border-left: 3px solid #c13a24; background: #fdeeea;
-  padding: 7px 10px; margin: 0 0 12px; }
-.callout-whatsnew .note b { color: #c13a24; }
-@media (prefers-color-scheme: dark) {
-  .callout-whatsnew { color: #e8e8e8; }
-  .callout-whatsnew h1 { color: #ff7a63; }
-  .callout-whatsnew h2 { color: #f2f2f2; border-bottom-color: #444; }
-  .callout-whatsnew .version { color: #9a9a9a; }
-  .callout-whatsnew .note { background: #3a2420; border-left-color: #ff7a63; }
-  .callout-whatsnew .note b { color: #ff7a63; }
-}
-</style>
-<div class="callout-whatsnew">
-<h1>What's new in Callout 0.8.3</h1>
-<p class="version">Version 0.8.3 Alpha</p>
-<p>0.8.3 fixes one thing a bug report named: a large picture — a phone photo, a scan, anything far bigger than a screenshot — made Callout stall for seconds after every edit. The cause was the autosave: it rendered and encoded the whole picture on the main thread, each time, with a wasteful detour on the way. Saving now happens in the background, encodes directly, and a burst of edits produces one write; drawing keeps a screen-sized copy of the picture so dragging stays smooth. Screenshots were never affected, which is why nobody saw it until a photo arrived. Measuring it turned up a second thing hiding underneath: a Card with any markup on it had been saving itself after every click, not only after every change, because each save thought the Card was new. It no longer does; a click that changes nothing writes nothing.</p>
-<p>Also: the bug reporter’s event history no longer fills up with hourly update checks, so the sixty lines it keeps are the ones that matter. Nothing else changed.</p>
-<h2>Fixed</h2>
-<ul>
-<li><b>Large pictures no longer stall the app.</b> Saving runs in the background and encodes directly; a run of edits yields one write; drawing uses a screen-sized copy of the picture. Everything is still saved exactly as before.</li>
-<li><b>A click that changes nothing writes nothing.</b> A Card with markup used to re-save on every click; it saves only when something changed, which also means Dropbox stops re-syncing a picture that did not change.</li>
-<li><b>Bug reports keep the events that matter.</b> An hourly update check that finds nothing is one line in the history, not two.</li>
-</ul>
-</div>
-]]></description>
-            <enclosure url="https://github.com/danefros/DFP-Callout-Releases/releases/download/v0.8.3-b52/DFP-Callout-0.8.3-b52.zip" length="10424087" type="application/octet-stream" sparkle:edSignature="LEAjKJ5daDhtsBWsFrZufDE2y6WvRVQDZ9JCHVBm187jfjg7OtZPmuR3elad1A/3PUokfW3TOadD7qEcW1L4Dg=="/>
         </item>
     </channel>
 </rss>
